@@ -198,7 +198,7 @@
     </link>
 
     <joint name="hokuyo_joint" type="fixed">
-        <origin xyz="${base_height/2 - hokuyo_size/2 + 0.095}  0 ${base_depth + hokuyo_size/2 + 0.02}" rpy="0 0 0" />
+        <origin xyz="${base_height/2 - hokuyo_size/2 + 0.095}  0 ${base_depth + hokuyo_size/2 + 0.02}" rpy="0 0 -${M_PI_2}" />
         <parent link="base_link"/>
         <child link="hokuyo_link" />
     </joint>
