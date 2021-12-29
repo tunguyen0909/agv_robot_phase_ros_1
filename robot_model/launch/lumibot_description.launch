@@ -5,7 +5,7 @@
 
   <!-- define specific name -->
 
-  <arg name="model" default="$(find robot_model)/urdf/02_robot_model_laser.xacro"/>
+  <arg name="model" default="$(find robot_model)/urdf/lumibot_model.xacro"/>
   <arg name="rvizconfig" default="$(find robot_model)/rviz/urdf.rviz" />
 
   <!-- Load model urdf use robot description param-->
