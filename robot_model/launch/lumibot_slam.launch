@@ -6,7 +6,7 @@
   <arg name="set_odom_frame" default="odom"/>
   <arg name="set_map_frame"  default="map"/>
 
-  <arg name="use_gmapping"  default="true"/>
+  <arg name="use_gmapping"  default="false"/>
   <!-- <arg name="use_hector_slam"  default="false"/> -->
 
   <group if="$(arg use_gmapping)"> 
