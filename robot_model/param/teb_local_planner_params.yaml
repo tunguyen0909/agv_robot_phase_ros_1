@@ -30,7 +30,7 @@ TebLocalPlannerROS:
 
  footprint_model: # types: "point", "circular", "two_circles", "line", "polygon"
   type: "circular"
-  radius: 0.18 # for type "circular"
+  radius: 0.23 # for type "circular"
   line_start: [-0.3, 0.0] # for type "line"
   line_end: [0.3, 0.0] # for type "line"
   front_offset: 0.2 # for type "two_circles"
@@ -91,7 +91,7 @@ TebLocalPlannerROS:
 
  enable_homotopy_class_planning: True # Cho phep tim nhung duong kha thi truoc khi cho xe chay
  enable_multithreading: True
- max_number_classes: # So luong duong se tim 
+ max_number_classes: 3 # So luong duong se tim 
  selection_cost_hysteresis: 1.0
  selection_prefer_initial_plan: 0.9
  selection_obst_cost_scale: 100.0
